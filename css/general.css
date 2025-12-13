@@ -1,0 +1,115 @@
+/* FASTE CSS REGLER - MÅ IKKE ÆNDRES */
+img {
+  width: 100%;
+  height: auto;
+}
+/* navigations menu */
+
+/* footer */
+.h2_footer {
+  size: 32;
+  color: var(--farve_5);
+  font-family: var(--font-family-playfairdisplay);
+  font-weight: var(--pd-semibold);
+}
+.h4_footer {
+  size: 32;
+  color: var(--farve_5);
+  font-weight: var(--pd-regular);
+}
+
+footer {
+  background-color: var(--farve_4);
+}
+.footer_section {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+/* KONTAKT KNAP */
+.kontakt_knap {
+  border-radius: var(--border-radius);
+  border: var(--farve_5) solid 1px;
+  box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.5);
+  background-color: #c3af95;
+  color: var(--farve_5);
+  width: 177px;
+  height: auto;
+  font-size: 36px;
+  font-family: var(--font-family-playfairdisplay);
+  font-weight: var(--pd-semibold);
+  padding-left: 15px;
+  padding-right: 15px;
+  text-decoration: none;
+}
+/* Desktop footer */
+
+@media screen and (min-width: 768px) {
+  .footer_section {
+    max-width: 1200px;
+    text-align: left;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+    align-items: start;
+    align-self: center;
+    margin: 0 auto;
+  }
+  .footer_knap_osv {
+    align-items: first baseline;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+/* FOOTER SLUTTER HER */
+/* HER KOMMER CUSTOM PROPERTIES */
+
+html {
+  /* FARVER */
+  --farve_1: #714000;
+  --farve_2: #efeadd;
+  --farve_3: #ffffff;
+  --farve_4: #faf7f1;
+  --farve_5: #382104;
+  --farve_6: #c3af95;
+
+  /* FONTS OG WEIGHTS*/
+  /* LORA */
+  --font-family-lora: "Lora", serif;
+  --lora-regular: 400;
+  --lora-medium: 500;
+  --lora-semibold: 600;
+  --lora-bold: 700;
+
+  /* PLAYFAIR DISPLAY */
+  --font-family-playfairdisplay: "Playfair Display", serif;
+  --pd-regular: 400;
+  --pd-medium: 500;
+  --pd-semibold: 600;
+  --pd-bold: 700;
+  --pd-extrabold: 800;
+  --pd_black: 900;
+
+  /* IBM PLEX MONO */
+  --font-family-ibm: "IBM Plex Mono", monospace;
+  --ibm-medium: 500;
+  /* ibm medium er den eneste weight vi bruger til ibm */
+
+  /* borders */
+  --border-radius: 15px;
+
+  /* Skriftstørrelser */
+  --h1-size: 40px;
+}
+
+/* HER SLUTTER CUSTOM PROPERTIES */
