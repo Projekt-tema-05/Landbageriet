@@ -1,0 +1,60 @@
+body {
+  background-color: var(--farve_2);
+}
+/* TEKST */
+#h1_index {
+  font-family: var(--font-family-playfairdisplay);
+  font-weight: var(--pd-regular);
+  text-align: center;
+  color: var(--farve_5);
+  font-size: 40px;
+}
+#p_index {
+  font-family: var(--font-family-lora);
+  font-weight: var(--lora-regular);
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 50px;
+  color: var(--farve_5);
+}
+
+#h2_index {
+  font-size: 24px;
+  font-family: var(--font-family-lora);
+  font-weight: var(--lora-regular);
+  text-align: center;
+  color: var(--farve_5);
+}
+/* LAYOUT */
+.index-text {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+main img {
+  border: 3px solid var(--farve_5);
+  width: 100%;
+}
+
+/* DESKTOP */
+@media screen and (min-width: 768px) {
+  .index_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .index_section :last-child {
+    grid-column: 2/3;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+  #herobanner_index {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  #h2_index {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+  }
+}
