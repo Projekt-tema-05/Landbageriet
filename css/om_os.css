@@ -1,0 +1,35 @@
+.om-os-paragraph1 {
+  font-family: "lora", serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: center;
+}
+
+.h1-om-os {
+  font-family: "playfair display", serif;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.fotogrid-om-os {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.om-os-foto1 {
+  border: 3px solid var(--farve_5);
+}
+
+.om-os-foto1 img {
+  display: block;
+  width: 100%;
+}
+
+/* Desktop version */
+@media (min-width: 768px) {
+}
