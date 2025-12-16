@@ -1,0 +1,153 @@
+body {
+  background-color: rgb(246, 243, 228);
+}
+
+.h1_produkt {
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+  color: #382104;
+  font-size: 2.5rem;
+}
+
+.menu_produkt {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  max-height: fit-content;
+  margin-bottom: 1em;
+}
+
+.beskrivelse {
+  font-family: "Lora", serif;
+  grid-column: 2/6;
+  margin-top: 2.3em;
+  align-items: end;
+}
+
+.cta_btn {
+  font-size: 1rem;
+  margin-top: 1.3em;
+  margin-left: 3.4rem;
+  font-weight: 600;
+  font-family: "Lora", serif;
+  color: #382104;
+  align-items: end;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.tekst_dd {
+  padding: 10px;
+  border-left: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+  border-bottom: 2px solid #fffefe;
+  min-width: 500px;
+}
+
+summary {
+  list-style: none;
+  cursor: pointer;
+}
+.menu_produkt details div {
+  padding: 10px;
+  border-left: 2px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  border-right: 2px solid #ccc;
+  margin-top: 5px;
+}
+.linje {
+  border: none;
+  height: 2px;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  margin: 2px auto 40px;
+  grid-column: 1/6;
+  grid-row: 2;
+}
+
+.navn_produkt {
+  font-size: 1.4rem;
+  margin-top: 1.3em;
+  margin-left: 4rem;
+  font-weight: 520;
+  font-family: "Lora", serif;
+  color: #382104;
+  align-items: end;
+}
+
+.navn_produkt2 {
+  font-size: 1.4rem;
+  margin-top: 1.3em;
+  margin-left: 4rem;
+  margin-right: 0.2em;
+  font-weight: 520;
+  font-family: "Lora", serif;
+  color: #382104;
+  align-items: end;
+}
+
+.navn_produkt3 {
+  font-size: 1.4rem;
+  margin-top: 1.3em;
+  margin-left: 4rem;
+  margin-right: 0.2em;
+  font-weight: 520;
+  font-family: "Lora", serif;
+  color: #382104;
+  align-items: end;
+}
+
+.navn_produkt4 {
+  font-size: 1.4rem;
+  margin-top: 1.3em;
+  margin-left: 4rem;
+  margin-right: 0.2em;
+  font-weight: 520;
+  font-family: "Lora", serif;
+  color: #382104;
+  align-items: end;
+}
+
+.navn_produkt5 {
+  font-size: 1.4rem;
+  margin-top: 1.3em;
+  margin-left: 4rem;
+  margin-right: 0.2em;
+  font-weight: 520;
+  font-family: "Lora", serif;
+  color: #382104;
+  align-items: end;
+}
+
+.beskrivelse5 {
+  font-family: "Lora", serif;
+  grid-column: 2/6;
+  margin-top: 2.3em;
+  align-items: end;
+}
+
+.navn_produkt6 {
+  font-size: 1.4rem;
+  margin-top: 1.3em;
+  margin-left: 4rem;
+  margin-right: 0.2em;
+  font-weight: 520;
+  font-family: "Lora", serif;
+  color: #382104;
+  align-items: end;
+}
+
+.navn_produkt7 {
+  font-size: 1.4rem;
+  margin-top: 1.3em;
+  margin-left: 4rem;
+  margin-right: 0.2em;
+  font-weight: 520;
+  font-family: "Lora", serif;
+  color: #382104;
+  align-items: end;
+}
