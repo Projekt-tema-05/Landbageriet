@@ -1,0 +1,30 @@
+main {
+  background-color: var(--farve_2);
+}
+#error {
+  font-family: var(--font-family-lora);
+  color: var(--farve_5);
+  font-size: 100px;
+  text-align: center;
+}
+#h4_error {
+  font-family: var(--font-family-lora);
+  color: var(--farve_5);
+  text-align: center;
+  font-size: 50px;
+}
+/* DESKTOP */
+@media screen and (min-width: 768px) {
+  #error {
+    font-family: var(--font-family-lora);
+    color: var(--farve_5);
+    font-size: 100px;
+    text-align: center;
+  }
+  #h4_error {
+    font-family: var(--font-family-lora);
+    color: var(--farve_5);
+    text-align: center;
+    font-size: 50px;
+  }
+}
