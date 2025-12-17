@@ -29,6 +29,7 @@ body {
   font-family: "lora", serif;
   font-size: 20px;
   font-weight: 500;
+  color: var(--farve_5);
 }
 
 .kontakt-form input,
@@ -74,15 +75,17 @@ body {
 .h1-kontakt {
   font-family: "playfair display", serif;
   font-size: 40px;
-  font-weight: 500;
+  font-weight: var(--pd-regular);
   text-align: center;
   margin-bottom: 100px;
+  color: var(--farve_5);
 }
 P {
   font-family: "lora", serif;
   font-size: 20px;
   font-weight: 500;
   margin: 5px;
+  color: var(--farve_5);
 }
 
 /* Desktop */
