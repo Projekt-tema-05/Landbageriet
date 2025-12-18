@@ -273,6 +273,10 @@ summary {
     overflow: hidden;
   }
 
+  .navn_produkt {
+    margin-left: 25px;
+  }
+
   .cta_btn:hover {
     text-decoration: underline;
   }
